@@ -2,7 +2,7 @@
 
 Google Tag Manager tag template that connects [PremiumStay](https://betasi.pl/) cookie consent with Google Consent Mode.
 
-**Requires PremiumStay 2026.11 or newer.** The template reads the `BetasiConsent` cookie and registers through `addBetasiConsentListener`, both provided by PremiumStay; on other sites it only applies the default state from its fields.
+The template reads the `BetasiConsent` cookie and registers through `addBetasiConsentListener`, both provided by PremiumStay; on other sites it only applies the default state from its fields.
 
 ## What it does
 
