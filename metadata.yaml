@@ -1,0 +1,5 @@
+homepage: "https://betasi.pl/"
+documentation: "https://github.com/rozwojbetasi/GTM-Template-Consent-Manager#readme"
+versions:
+  - sha: 4ec7a5b9ed890e74947ae127b64a9a5a2d7882dd
+    changeNotes: Initial release.
