@@ -1,5 +1,7 @@
 homepage: "https://betasi.pl/"
 documentation: "https://github.com/rozwojbetasi/GTM-Template-Consent-Manager#readme"
 versions:
+  - sha: e18ac731b1bd55ea99da3b79d4f8c7d5c8c1b315
+    changeNotes: Pass "Wait for update" to the default consent state as a number.
   - sha: 4ec7a5b9ed890e74947ae127b64a9a5a2d7882dd
     changeNotes: Initial release.
