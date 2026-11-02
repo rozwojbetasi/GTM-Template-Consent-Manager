@@ -272,6 +272,7 @@ const updateConsentState = require('updateConsentState');
 const callInWindow = require('callInWindow');
 const getCookieValues = require('getCookieValues');
 const getType = require('getType');
+const makeNumber = require('makeNumber');
 const JSON = require('JSON');
 const gTagConsents = ['ad_storage', 'analytics_storage', 'personalization_storage', 'functionality_storage', 'security_storage', 'ad_user_data', 'ad_personalization'];
 const betasiConsentCookie = 'BetasiConsent';
@@ -310,7 +311,7 @@ const fieldSettings = () => {
             settings[type] = value;
         }
     });
-    settings.wait_for_update = data.wait_for_update;
+    settings.wait_for_update = makeNumber(data.wait_for_update);
     return settings;
 };
 
@@ -790,7 +791,7 @@ setup: |-
     personalization_storage: 'notset',
     functionality_storage: 'granted',
     security_storage: 'denied',
-    wait_for_update: 500,
+    wait_for_update: '500',
     url_passthrough: true,
     ads_data_redaction: true
   };
